@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "superpowers-resume",
+  "description": "Marketplace for the superpowers-resume plugin: non-destructive recovery for interrupted Superpowers plan execution.",
+  "owner": {
+    "name": "Mark",
+    "url": "https://github.com/Coder999"
+  },
+  "plugins": [
+    {
+      "name": "superpowers-resume",
+      "description": "Non-destructive recovery for Superpowers plan execution interrupted mid-task.",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "Mark"
+      },
+      "homepage": "https://github.com/Coder999/superpowers-resume",
+      "license": "MIT"
+    }
+  ]
+}

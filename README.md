@@ -50,11 +50,18 @@ In print mode (`claude -p`) only the namespaced form resolved (verified
 claude --plugin-dir /path/to/superpowers-resume
 ```
 
-**Persistent** (from a marketplace that lists this plugin):
+**Persistent** (this repo is its own marketplace):
 
 ```
-/plugin marketplace add <marketplace>
-/plugin install superpowers-resume@<marketplace>
+/plugin marketplace add Coder999/superpowers-resume
+/plugin install superpowers-resume@superpowers-resume
+```
+
+Or from a shell:
+
+```bash
+claude plugin marketplace add Coder999/superpowers-resume
+claude plugin install superpowers-resume@superpowers-resume
 ```
 
 **Without the plugin system.** Dropping `commands/`, `skills/`, and `scripts/`
