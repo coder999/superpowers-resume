@@ -1,0 +1,8 @@
+{
+  "name": "superpowers-resume",
+  "version": "0.1.0",
+  "description": "Non-destructive recovery for Superpowers plan execution interrupted mid-task.",
+  "author": {
+    "name": "Mark"
+  }
+}
